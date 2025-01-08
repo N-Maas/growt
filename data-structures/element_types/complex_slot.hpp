@@ -183,7 +183,7 @@ class complex_slot
     static std::string name() { return "complex_slot"; }
 
   private:
-    static allocator_type allocator;
+    inline static allocator_type allocator;
 };
 
 
